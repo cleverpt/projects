@@ -1,0 +1,246 @@
+/* body section */
+body {
+    margin: auto;
+    
+}
+
+/* navbar section */
+
+.navbar {
+   height: auto;
+   width: 100%;
+   background-color: rgb(116, 124, 39);
+   padding: 0 150px 0 115px;
+   
+
+}
+
+/* logo section */
+
+.logo {
+   height: auto;
+   width: 90px;
+   vertical-align: bottom;
+   }
+/*nav section */
+
+.nav {
+   color: white;
+   position: absolute;
+   top: 30px;
+   left: 500px;
+   font-size: 1.5em;
+   margin-top: 10px;
+   
+}
+
+
+
+/* list section */
+li{
+color: white;
+ text-align: center;
+ padding: 14px 16px;
+ list-style-type: none;
+ display: inline;
+ 
+ }
+ /*  list hover section */
+ ul :hover  {
+    background-color: blue; 
+    
+ }
+
+ .container {
+     width: 83%;
+     height: 1000px;
+     background-color: blueviolet;
+ }
+
+ .container > div {
+     height: 100%;
+     background-color: brown;
+     display: inline-block;
+     vertical-align: top;
+ }
+
+ .left {
+     width: 38%;
+ }
+
+ .left > img {
+     width: 100%;
+     height: 290px;
+ }
+
+ .left > h2 {
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   color: black;
+}
+
+.left > p {
+   font-size: 30px;
+   text-align: center;
+   color: black;
+   font-weight: bold;
+   }
+
+   .middle {
+       width: 30%;
+   }
+
+   .middle > h2 {
+       text-align: center;
+       font-size: 30px;
+       font-weight: bold;
+       color: black; 
+   }
+
+   .middle > img {
+       width: 100%;
+       height: 290px;
+   }
+
+   .button {
+       width: 30%;
+       height: 50px;
+       margin: 5px;
+       background-color: blue;
+       color: whitesmoke;
+       padding: 10px 20px;
+       border-radius: 4px;
+       border: 2px solid black;
+       font-size: 20px;
+       cursor: pointer;
+     }
+
+     .button-2 {
+       width: 30%;
+       height: 50px;
+       margin: 70px;
+       background-color: blue;
+       color: whitesmoke;
+       padding: 10px 20px;
+       border-radius: 4px;
+       border: 2px solid black;
+       font-size: 20px;
+       cursor: pointer;
+     }
+
+     .right {
+         width: 30%;
+     }
+
+     .right > h2 {
+       text-align: center;
+       font-size: 30px;
+       font-weight: bold;
+       color: black; 
+     }
+
+     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+     :root{
+         --success-color:#2ecc71;
+         --error-color: #e74c3c;
+     }
+
+     *{
+       box-sizing: border-box;
+   }
+   body{
+       background-color: blue;
+       font-family:'Open Sans',sans-serif;
+       }
+
+      
+       h2{
+           text-align: center;
+           margin: 0 0 20px;
+       }
+        
+       .form{
+
+           padding: 30px 40px;
+       
+       }
+       .form-control{
+       
+           margin-bottom: 10px;
+           padding-bottom: 20px;
+           position: relative;
+       }
+       .form-control label{
+       
+          color: black;
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+       }
+       .form-control input{
+           border: 2px solid  #f0f0f0;
+           border-radius: 4px;
+           width: 100%;
+           padding: 10px;
+           font-size: 14px;
+       
+       }
+       .form-control input:focus{
+           outline: 0;
+           border-color: #777;
+       }
+       .form-control.success input{
+       
+           border-color:var(--success-color);
+       
+       }
+       .form-control.error input{
+           border-color:var(--error-color);
+       }
+       
+       .form-control small{
+           color: var(--error-color);
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           visibility: hidden;
+       }
+       
+       .form-control.error small{
+       
+           visibility: visible;
+       }
+      
+       .submit{
+           cursor: pointer;
+           background-color: #3498db;
+           border: 2px sold #3498db;
+           border-radius: 4px;
+           color: #fff;
+           display: block;
+           font-size: 16px;
+           padding: 10px;
+           margin-top: 10px;
+           width: 100%;
+       }
+
+
+       .textarea {
+           width: 100%;
+           height: 150px;
+           padding: 12px 20px;
+           box-sizing: border-box;
+           border: 2px solid #ccc;
+           border-radius: 4px;
+           background-color: #f8f8f8;
+           font-size: 16px;
+           resize: none;
+           
+       }
+       
+      
+          
+       
+      
